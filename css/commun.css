@@ -36,7 +36,7 @@ li a:hover {
 .logo{
     margin: 0;
     padding: 0;
-    height: 205px;
+    height: 201px;
 
 }
 
@@ -59,9 +59,8 @@ li a:hover {
 /*Corps*/
 
 #presentation{
-    margin: 0;
+    margin: 0px;
     padding: 0px;
-    vertical-align: 0%;
     height: 500px;
     font-size: 30px;
 }
@@ -72,8 +71,9 @@ li a:hover {
     text-align: center;
     height: 1000px;
     width: 30%;
-    padding-top: 20px;
-    padding-right: 200px;
+    padding-top: 50px;
+    padding-right: 170px;
+    overflow:hidden;
     
 }
 
@@ -86,8 +86,11 @@ li a:hover {
     background-image: url("../img/photo2.JPG");
     background-size: cover;
     margin: 0;
-    padding: 0;
+    padding: 0px;
     height: 1000px;
     width: 50%;
     padding-left: 20px;
+    transform: rotate(90deg);
+    transform-origin: center;
+    overflow:hidden;
 }
