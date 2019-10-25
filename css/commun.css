@@ -41,11 +41,11 @@ li a:hover {
 }
 
 .navigation {
-    background-image: url("../img/image7.jpg");
+    background-image: url("../img/Nom2.png");
     background-size: cover;
-    margin: 0;
+    margin-top: 0px;
     padding: 0;
-    height: 500px;
+    height: 700px;
     font-size: 20px;
     background-repeat: no-repeat;
 }
@@ -58,39 +58,17 @@ li a:hover {
 
 /*Corps*/
 
-#presentation{
-    margin: 0px;
-    padding: 0px;
-    height: 500px;
-    font-size: 30px;
-}
-.droite {
-    float:right;
-    margin: 0;
-    padding: 0;
-    text-align: center;
+.droite{
+    float: right;
     height: 1000px;
-    width: 30%;
-    padding-top: 50px;
-    padding-right: 170px;
-    overflow:hidden;
-    
-}
-
-.droite a:hover {
-    background-color: #2a4ab3;
-    color:white;
-}
-
-.photo{
-    background-image: url("../img/photo2.JPG");
-    background-size: cover;
-    margin: 0;
-    padding: 0px;
-    height: 1000px;
-    width: 50%;
-    padding-left: 20px;
-    transform: rotate(90deg);
+    width: 1000px;
     transform-origin: center;
-    overflow:hidden;
+    transform: rotate(90deg);
+}
+
+.gauche{
+    text-align: center;
+    font-size: 35px;
+    margin: -0.5px;
+    padding: 30px;
 }
