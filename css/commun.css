@@ -43,9 +43,11 @@ li a:hover {
 .navigation {
     background-image: url("../img/Nom2.png");
     background-size: cover;
+    background-position: center;
     margin-top: 0px;
     padding: 0;
-    height: 700px;
+    height: 400px;
+    width : 100%;
     font-size: 20px;
     background-repeat: no-repeat;
 }
@@ -54,21 +56,4 @@ li a:hover {
     text-align: center;
     margin: 0;
     padding: 100px;
-}
-
-/*Corps*/
-
-.droite{
-    float: right;
-    height: 1000px;
-    width: 1000px;
-    transform-origin: center;
-    transform: rotate(90deg);
-}
-
-.gauche{
-    text-align: center;
-    font-size: 35px;
-    margin: -0.5px;
-    padding: 30px;
 }
