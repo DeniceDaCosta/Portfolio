@@ -7,6 +7,7 @@
 }
 
 #box1{
+    background-color: rgb(33, 78, 114);
 }
 
 .photo{
@@ -14,10 +15,15 @@
     width: 1000px;
 }
 
+#box2{
+    background-color: rgb(245, 245, 245)
+}
+
 #box2 > p{
     width: 80%;
-    padding-top: 60px;
+    padding-top: 20px;
     margin-left: 80px;
+    margin-bottom: 50px;
     color: rgb(54, 54, 54);
     font-size: 20px;
     text-align: left;
@@ -30,7 +36,7 @@
 
 #box3 > p{
     width: 80%;
-    padding-top: 20px;
+    padding-top: 50px;
     margin-left: 80px;
     color: rgb(54, 54, 54);
     font-size: 20px;
@@ -41,12 +47,18 @@
 
 #slideshow {
     position: relative;
-    width: 870px;
-    height: 800px;
+    width: 1fr;
+    height: 540px;
+    margin: 0px;
     padding: 15px;
     padding-top: 50px;
     background: rgb(33, 78, 114);
 
+}
+
+.plusSlides{
+    width: 920px;
+    height: 500px;
 }
 
 
@@ -122,9 +134,41 @@
     background-color: rgb(33, 78, 114);
 }
 
+#box5 > p{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+
+.logo2{
+    height: 350px;
+    width: 400px;
+    padding-top: 40px;
+    padding-left: 270px;
+}
+
+.titre{
+    width: 80%;
+    padding-top: 50px;
+    margin-left: 80px;
+    font-size: 30px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+.citation{
+    width: 80%;
+    padding-top: 50px;
+    margin-left: 80px;
+    color: rgb(54, 54, 54);
+    font-size: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
 #box6{
     background-color:  rgb(245, 245, 245);
-    height: 500px;
+    height: 600px;
 }
 
 span{

@@ -13,6 +13,7 @@ html,body {
     height: 10vh;
     justify-content: center;
     display: flex;
+    padding-top: 206px;
 } 
 
 li{
@@ -43,10 +44,10 @@ li a:hover {
 .navigation {
     background-image: url("../img/Nom2.png");
     background-size: cover;
-    background-position: center;
+    background-position: bottom;
     margin-top: 0px;
-    padding: 0;
-    height: 400px;
+    padding-top: 200px;
+    height: 300px;
     width : 100%;
     font-size: 20px;
     background-repeat: no-repeat;
