@@ -1,0 +1,20 @@
+html,body{
+    margin: 0px;
+    padding: 0px;
+}
+
+.background{
+    background-image: url("../img/photo1.jpg");
+    background-repeat: no-repeat; 
+    background-size: cover;
+    height: 200px;
+    width: 100%;
+}
+
+@media(min-width: 800px){
+    
+    .background{
+        height: 700px;
+        width: 100%;
+    }
+}
