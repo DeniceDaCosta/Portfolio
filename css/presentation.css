@@ -6,18 +6,20 @@ html,body{
 /*header*/
 
 .navigation{
-    width: 100%;
+    width: 440px;
     background-color: white;
     display: flex;
     justify-content: center;
     flex-wrap: nowrap;
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
 li {
+    margin: 0px;
+    padding: 0px;
     float: left;
-    width: 160px;
+    width: 140px;
     font-size: 20px;
     text-align: center;
     font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
@@ -42,23 +44,28 @@ li a {
 }
 
 li a:hover {
-    background-color: #0990E8;
+    background-color: #00568B;
     color: white;
 }
 
 /*body*/
 
 .background{
+    margin: 0px;
+    padding: 0px;
     background-image: url("../img/photo1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: 300px;
-    width: 100%;
+    width: 444px;
 }
 
 
 .box1{
-    height: 550px;
+    margin: 0px;
+    padding: 0px;
+    width: 444px;
+    height: 900px;
 }
 
 .box1 > p{
@@ -71,8 +78,10 @@ li a:hover {
 }
 
 #slideshow {
+    margin: 0px;
+    padding: 0px;
     position: relative;
-    width: 100%;
+    width: 444px;
     height: 400px;
 
 }
@@ -101,7 +110,7 @@ li a:hover {
 }
 
 .photo{
-    width: 546px;
+    width: 440px;
     height: 400px;
 }
 
@@ -124,7 +133,10 @@ li a:hover {
 }
 
 .box3{
-    height: 500px;
+    margin: 0px;
+    padding: 0px;
+    width: 444px;
+    height: 1050px;
 }
 
 .box3 > p{
@@ -133,19 +145,96 @@ li a:hover {
     color: rgb(50, 50, 50);
     width: 90%;
     padding-left: 20px;
-    text-align: left;
 }
 
 .entract{
-    padding-left: 220px;
+    padding-left: 150px;
     padding-top: 20px;
     padding-bottom: 20px;
 }
 
+.logo{
+    width: 444px;
+    height: 400px;
+}
+
+.box4{
+    margin: 0px;
+    padding: 0px;
+    width: 444px;
+    height: 800px;
+}
+
+.right > p{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    width: 90%;
+    padding-left: 20px;
+}
+
+.box1 > p::first-letter{
+    color: #0077B2;
+    font-size: 40px
+}
+
+.box3 > p::first-letter{
+    color: #0077B2;
+    font-size: 40px
+}
+
+span{
+    color: #0077B2;
+    text-align: center;
+}
+
+.transition{
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
+.transition2{
+    width: 300px;
+    padding-top: 20px;
+    padding-left: 60px;
+    padding-bottom: 20px;
+}
+
 @media(min-width: 800px){
+    .box1 > p::first-letter{
+        color: #0077B2;
+        font-size: 40px
+    }
+
+    .box3 > p::first-letter{
+        color: #0077B2;
+        font-size: 40px
+    }
+
+    span{
+        color: #0077B2;
+    }
+
     .navigation{
         justify-content: space-between;
         position: fixed;
+        width: 100%;
+    }
+
+    .transition{
+        width: 300px;
+        padding-top: 30px;
+        padding-left: 800px;
+        padding-bottom: 0px;
+    }
+
+    .transition2{
+        width: 300px;
+        margin-top: 100px;
+        padding-left: 1200px;
+        padding-bottom: 0px;
     }
 
     .background{
@@ -154,49 +243,90 @@ li a:hover {
     }
 
     .box1{
-        height: 500px;
+        height: 750px;
+        width: 100%;
     }
 
     .box1 > p{
-        width: 40%;
+        width: 38%;
         padding-left: 1000px;
         padding-top: 20px;
     }
 
     #slideshow {
-        position: relative;
         width: 100%;
-        height: 900px;
+        height: 700px;
     }
 
     .photo{
-        width: 1899px;
+        width: 1900px;
         height: 900px;
     }
 
     .box3{
         padding-top: 50px;
+        width: 100%;
+        height: 500px;
     }
     .box3 > p{
         width: 40%;
+        padding-right: 30px;
+        padding-top: 20px;
     }
 
     .style1{
+
         float: left;
         width: 100px;
-        background: lightcoral;
+        text-align: right;
     }
 
     .style2{
         float: right;
         width: 200px;
-        background: royalblue;
+        text-align: left;
+    }
+
+    .style3{
+        width: 200px;
+        text-align: center;
+        margin-left: 550px;
     }
 
     .entract{
-        padding-left: 120px;
-        padding-top: 20px;
+        padding-left: 90px;
+        padding-top: 80px;
     }
+
+    .box4{
+        width: 100%;
+    }
+    
+    .logo{
+        width: 800px;
+        height: 800px;
+        padding-left: 50px;
+    }
+
+    .left{
+        float: left;
+        width: 50%;
+    }
+
+    .right{
+        float: right;
+        font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+        font-size: 20px;
+        color: rgb(50, 50, 50);
+        width: 50%;
+        margin-top: 50px;
+    }
+
+    .right > p{
+        width: 90%;
+    }
+
+    
 
 
 }
