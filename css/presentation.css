@@ -105,20 +105,6 @@ li a:hover {
     height: 400px;
 }
 
-.box3{
-    height: 500px;
-}
-
-.box3 > p{
-    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 20px;
-    color: rgb(50, 50, 50);
-    width: 90%;
-    padding-left: 20px;
-    text-align: left;
-}
-
-
 @-webkit-keyframes slider {  
     0%, 20%, 100%   { left: 0 }  
     25%, 45%        { left: -100% }  
@@ -135,6 +121,25 @@ li a:hover {
     0%, 20%, 100%   { left: 0 }  
     25%, 45%        { left: -100% }  
     50%, 70%        { left: -200% }  
+}
+
+.box3{
+    height: 500px;
+}
+
+.box3 > p{
+    font-family: "Montserrat", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 20px;
+    color: rgb(50, 50, 50);
+    width: 90%;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.entract{
+    padding-left: 220px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 @media(min-width: 800px){
@@ -154,7 +159,7 @@ li a:hover {
 
     .box1 > p{
         width: 40%;
-        padding-left: 800px;
+        padding-left: 1000px;
         padding-top: 20px;
     }
 
@@ -167,6 +172,30 @@ li a:hover {
     .photo{
         width: 1899px;
         height: 900px;
+    }
+
+    .box3{
+        padding-top: 50px;
+    }
+    .box3 > p{
+        width: 40%;
+    }
+
+    .style1{
+        float: left;
+        width: 100px;
+        background: lightcoral;
+    }
+
+    .style2{
+        float: right;
+        width: 200px;
+        background: royalblue;
+    }
+
+    .entract{
+        padding-left: 120px;
+        padding-top: 20px;
     }
 
 
