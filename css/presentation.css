@@ -1,7 +1,8 @@
 html,body{
     margin: 0px;
     padding: 0px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    
 }
 
 /*header*/
@@ -14,6 +15,7 @@ html,body{
     flex-wrap: nowrap;
     margin: 0px;
     padding: 0px;
+    
 }
 
 li {
@@ -22,9 +24,9 @@ li {
     float: left;
     width: 100%;
     font-size: 18px;
-    text-align: center;
-}
+    text-align: center;    
 
+}
 
 ul {
     list-style-type: none;
@@ -32,6 +34,7 @@ ul {
     padding: 0; 
     overflow: hidden;
     position: sticky;
+    
 } 
 
 li a {
@@ -164,11 +167,12 @@ li a:hover {
     padding: 0px;
     width: 123%;
     height: 1200px;
+    background-color: #214E72;
 }
 
 .right > p{
     font-size: 20px;
-    color: rgb(50, 50, 50);
+    color: white;
     width: 90%;
     padding-left: 5%;
 }
@@ -259,12 +263,12 @@ span{
     .transition{
         width: 20%;
         padding-left: 41%;
+        margin-top: -3%;
     }
 
     .transition2{
         width: 20%;
-        margin-top: 10%;
-        padding-left: 70%;
+        padding-left: 41%;
     }
 
     .background{
@@ -295,7 +299,7 @@ span{
     .box3{
         padding-top: 4%;
         width: 100%;
-        height: 500px;
+        height: 700px;
     }
     .box3 > p{
         width: 35%;
@@ -328,7 +332,7 @@ span{
 
     .box4{
         width: 100%;
-        margin-top: -10%;
+        height: 900px;
     }
     
     .logo{
@@ -346,10 +350,10 @@ span{
     .right{
         float: right;
         font-size: 20px;
-        color: rgb(50, 50, 50);
-        width: 40%;
-        margin-top: -2%;
-        padding-left: 5%;
+        color: white;
+        width: 30%;
+        margin-top: 2%;
+        margin-right: 7%;
     }
 
     .right > p{
