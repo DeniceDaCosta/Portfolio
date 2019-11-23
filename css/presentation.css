@@ -8,7 +8,7 @@ html,body{
 /*header*/
 
 .navigation{
-    width: 100%;
+    width: 123%;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -40,8 +40,8 @@ ul {
 li a {
     display: block;
     color: rgb(50, 50, 50);
-    text-align: center;
-    padding: 40px 16px;
+    padding: 30px 10px;
+    padding-right: 20%;
     text-decoration: none;
 }
 
@@ -65,14 +65,14 @@ li a:hover {
 }
 
 
-.box1{
+#box1{
     margin: 0px;
     padding: 0px;
     width: 123%;
     height: 900px;
 }
 
-.box1 > p{
+#box1 > p{
     font-size: 20px;
     color: rgb(50, 50, 50);
     width: 90%;
@@ -135,7 +135,7 @@ li a:hover {
     50%, 70%        { left: -200% }  
 }
 
-.box3{
+#box3{
     margin: 0px;
     padding: 0px;
     padding-top: 5%;
@@ -143,7 +143,7 @@ li a:hover {
     height: 1050px;
 }
 
-.box3 > p{
+#box3 > p{
     font-size: 20px;
     color: rgb(50, 50, 50);
     width: 90%;
@@ -159,30 +159,28 @@ li a:hover {
 
 .logo{
     width: 100%;
-    height: 444px;
+    height: 500px;
 }
 
-.box4{
+#box4{
     margin: 0px;
     padding: 0px;
     width: 123%;
-    height: 1200px;
+    height: 930px;
     background-color: #214E72;
 }
 
-.right > p{
-    font-size: 20px;
-    color: white;
-    width: 90%;
-    padding-left: 5%;
+iframe{
+    width: 100%;
+    height: 300px;
 }
 
-.box1 > p::first-letter{
+#box1 > p::first-letter{
     color: #0077B2;
     font-size: 40px
 }
 
-.box3 > p::first-letter{
+#box3 > p::first-letter{
     color: #0077B2;
     font-size: 40px
 }
@@ -206,27 +204,72 @@ span{
     padding-bottom: 5%;
 }
 
-.footer {
-    text-align: center;
-    margin: 0;
-    height: 100%;
-    background-color: #2c3e50;
-    color: #fff;
-    width: 123%;
-    padding-top: 50%;
+#box5{
+    height: 100px;
 }
 
-.footer > p{
-    margin-bottom: 50%;
+footer {
+    width: 123%;
+    height: 300px; 
+    background-color: #2e4d6b;
+}
+
+.profil{
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+
+.separateur{
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 2%;  
+}
+
+.footer1{
+    float: right;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.footer2{
+    float: right;
+    width: 12%;
+    margin-right: 27%;
+    margin-top: -23%;
+}
+
+.credit{
+    float: right;
+    width: 8%;
+    margin-right: 29%;
+    margin-top: -17%;
+}
+
+.icon1{
+    float: right;
+    width: 5.2%;
+    margin-right: 55%;
+    margin-top: -33%;
+}
+
+.icon2{
+    float: right;
+    width: 5%;
+    margin-right: 49%;
+    margin-top: -33%;
 }
 
 @media(min-width: 800px){
-    .box1 > p::first-letter{
+    #box1 > p::first-letter{
         color: #0077B2;
         font-size: 40px
     }
 
-    .box3 > p::first-letter{
+    #box3 > p::first-letter{
         color: #0077B2;
         font-size: 40px
     }
@@ -239,6 +282,7 @@ span{
         justify-content: space-between;
         position: fixed;
         width: 100%;
+        background-color: #f5f5f5;
     }
 
     li {
@@ -268,7 +312,7 @@ span{
 
     .transition2{
         width: 20%;
-        padding-left: 41%;
+        padding-left: 65%;
     }
 
     .background{
@@ -276,12 +320,12 @@ span{
         width: 100%;
     }
 
-    .box1{
+    #box1{
         height: 800px;
         width: 100%;
     }
 
-    .box1 > p{
+    #box1 > p{
         width: 38%;
         padding-left: 60%;
     }
@@ -292,16 +336,16 @@ span{
     }
 
     .photo{
-        width: 1522px;
+        width: 100%;
         height: 700px;
     }
 
-    .box3{
+    #box3{
         padding-top: 4%;
         width: 100%;
         height: 700px;
     }
-    .box3 > p{
+    #box3 > p{
         width: 35%;
         padding-right: 2%;
     }
@@ -316,6 +360,7 @@ span{
         float: right;
         width: 40%;
         text-align: left;
+        margin-left: -5%;
     }
 
     .style3{
@@ -330,40 +375,79 @@ span{
         padding-top: 3%;
     }
 
-    .box4{
+    #box4{
         width: 100%;
-        height: 900px;
+        height: 737px;
     }
     
     .logo{
         width: 100%;
-        height: 100%;
-        padding-left: 8%;
-        margin-top: -10%;
+        height: 737px;
     }
 
     .left{
         float: left;
         width: 50%;
+        margin-top: -14.3%;
     }
 
-    .right{
-        float: right;
-        font-size: 20px;
-        color: white;
-        width: 30%;
-        margin-top: 2%;
-        margin-right: 7%;
+    iframe{
+        width: 40%;
+        height: 450px;
+        margin-left:5%;
     }
 
-    .right > p{
-        width: 90%;
-    }
-
-    .footer{
+    footer{
         width: 100%;
-        height: 100px;
-        padding-top: 100px;
+        height: 330px;   
+    }
+
+    .profil{
+        
+        width: 15%;
+        height: 200px;
+        margin-left: 2%;
+    }
+
+    .separateur{
+        float: none;
+        height: 230px;
+        margin-top: -30%;
+        padding-left: 2%;
+    }
+
+    .footer1{
+        float: none;
+        width: 30%;
+        padding-bottom: 6%;
+    }
+
+    .footer2{
+        width: 6%;
+        padding-left: 30%;
+        padding-top: 5.4%;
+    }
+
+    .credit{
+        float: right;
+        width: 3.5%;
+        padding-bottom: 14%;
+        padding-top: 3%;
+    }
+
+    .icon1{
+        float: none;
+        width: 3%;
+        margin-left: 25%;
+        padding-bottom: 2%;
+    }
+
+    .icon2{
+        float: none;
+        width: 2.9%;
+        margin-left: 28.5%;
+        padding-bottom: 3.2%;
+
     }
 
 
