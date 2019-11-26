@@ -40,7 +40,7 @@ ul {
 li a {
     display: block;
     color: rgb(50, 50, 50);
-    padding: 30px 10px;
+    padding: 40px 20px;
     padding-right: 20%;
     text-decoration: none;
 }
@@ -64,12 +64,190 @@ li a:hover {
     width: 123%;
 }
 
+
+#slideshow {
+    margin: 0px;
+    padding: 0px;
+    width: 123%;
+    height: 400px;
+
+}
+
+#slideshow .container {  
+    position:relative;
+    z-index: -1;  
+    width: 100%;  
+    height: 100%;  
+    overflow: hidden;  
+}  
+
+#slideshow .slider {  
+    position: absolute;  
+    left:0; top:0;  
+    width: 400%;  
+    height: 310px; 
+	-webkit-animation: slider 10s infinite; 
+	-moz-animation: slider 10s infinite; 
+	animation: slider 22s infinite;
+}  
+
+#slideshow figure {  
+    position:relative;  
+    display:inline-block;  
+    padding:0; margin:0;  
+}
+
+.photo{
+    width: 491px;
+    height: 400px;
+}
+
+@-webkit-keyframes slider {  
+    0%, 20%, 100%   { left: 0 }  
+    25%, 45%        { left: -100% }  
+    50%, 70%        { left: -200% }  
+}
+
+@-moz-keyframes slider {  
+    0%, 20%, 100%   { left: 0 }  
+    25%, 45%        { left: -100% }  
+    50%, 70%        { left: -200% }
+}
+
+@keyframes slider {  
+    0%, 20%, 100%   { left: 0 }  
+    25%, 45%        { left: -100% }  
+    50%, 70%        { left: -200% }  
+}
+
+.logo1{
+    width: 123%;
+    height: 500px;
+}
+
+.logo2{
+    width: 123%;
+    height: 500px;
+}
+
+.logo3{
+    width: 123%;
+    height: 500px;
+}
+
+.logo4{
+    width: 123%;
+    height: 500px;
+}
+
+#slideshow2 {
+    margin: 0px;
+    padding: 0px;
+    width: 123%;
+    height: 400px;
+
+}
+
+#slideshow2 .container {  
+    position:relative;
+    z-index: -1;  
+    width: 100%;  
+    height: 100%;  
+    overflow: hidden;  
+}  
+
+#slideshow2 .slider {  
+    position: absolute;  
+    left:0; top:0;  
+    width: 400%;  
+    height: 310px; 
+	-webkit-animation: slider 10s infinite; 
+	-moz-animation: slider 10s infinite; 
+	animation: slider 22s infinite;
+}  
+
+#slideshow2 figure {  
+    position:relative;  
+    display:inline-block;  
+    padding:0; margin:0;  
+}
+
+.affiches{
+    width: 120%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+
+
+/*Footer*/
+
+footer {
+    width: 123%;
+    height: 300px; 
+    background-color: #2e4d6b;
+}
+
+.profil{
+    float: left;
+    width: 30%;
+    height: 150px;
+    margin-top: 3.5%;
+    margin-left: 2%;
+}
+
+.separateur{
+    height: 250px;
+    margin-top: 5%;
+    margin-left: 2%;  
+}
+
+.footer1{
+    float: right;
+    width: 60%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.footer2{
+    float: right;
+    width: 12%;
+    margin-right: 27%;
+    margin-top: -23%;
+}
+
+.credit{
+    float: right;
+    width: 8%;
+    margin-right: 29%;
+    margin-top: -17%;
+}
+
+.icon1{
+    float: right;
+    width: 5.2%;
+    margin-right: 55%;
+    margin-top: -33%;
+}
+
+.icon2{
+    float: right;
+    width: 5%;
+    margin-right: 49%;
+    margin-top: -33%;
+}
+
+
 @media(min-width: 800px){
     .navigation{
         justify-content: space-between;
         position: fixed;
         width: 100%;
         background-color: #f5f5f5;
+        z-index: 1;
+    }
+
+    .background{
+        width: 100%;
     }
 
     li {
@@ -89,45 +267,158 @@ li a:hover {
         overflow: hidden;
         height: 100%;
         position: sticky;
-    } 
-
-    .slider{
-        width:400px;
-        height:200px;
-        border:solid 1px #555;
-        padding:0;
-        position:relative;
-        margin:150px auto;
     }
+
+    #slideshow {
+        width: 50%;
+        height: 700px;
+    }
+
+    #slideshow2 {
+        margin-top: 10%;
+        margin-left: 53%;
+        width: 50%;
+        height: 700px;
+    }
+
+    .photo{
+        margin-top: 5%;
+        margin-left: 2%;
+        width: 100%;
+        height: 600px;
+    }
+
+    
+    .logo1{
+        -webkit-transform: scale(0);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        margin-top: -40.9%;
+        margin-right: 25%;
+        float: right;
+        width: 20%;
+        height: 300px;
+    }
+
+    .logo1:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .logo2{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        margin-top: -20.9%;
+        margin-right: 3%;
+        float: right;
+        width: 20%;
+        height: 300px;
+    }
+
+    .logo2:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .logo3{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        margin-top: -20.9%;
+        margin-right: 25%;
+        float: right;
+        width: 20%;
+        height: 300px;
+    }
+
+    .logo3:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .logo4{
+        -webkit-transform: scale(1);
+        transform: scale(1);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+        margin-top: -40.9%;
+        margin-right: 3%;
+        float: right;
+        width: 20%;
+        height: 300px;
+    }
+
+    .logo4:hover {
+        -webkit-transform: scale(1.3);
+        transform: scale(1.3);
+    }
+
+    .affiches{
+        width: 60%;
+        margin-top: -42%;
+        margin-left: -5%;
+    }
+    
+    .photo2{
+        width: 760px;
+        height: 500px;
+    }
+
+    
+    footer{
+        width: 100%;
+        height: 330px;   
+    }
+
+    .profil{
         
-    #slider-list{
-        list-style-type:none;
-        display:flex;
-        margin:0;
-        position:absolute;
-        left:0;
-        top:0;
-        padding:0;
+        width: 15%;
+        height: 200px;
+        margin-left: 2%;
     }
 
-    #slider-list img{
-        width:400px;
-        height:200px;
-        margin:0;
+    .separateur{
+        float: none;
+        height: 230px;
+        margin-top: -30%;
+        padding-left: 2%;
     }
 
-    @keyframes slide{
-        0%{left:0px;}
-        10%{left:0px;}
-        35%{left:-100%;}
-        45%{left:-100%;}
-        75%{left:-200%;}
-        85%{left:-200%;}
-        90%{left:0px;}
+    .footer1{
+        float: none;
+        width: 30%;
+        padding-bottom: 6%;
     }
 
-    #slid_list{
-        [...]
-        animation:slide 15s linear infinite;
+    .footer2{
+        width: 6%;
+        padding-left: 30%;
+        padding-top: 5.4%;
+    }
+
+    .credit{
+        float: right;
+        width: 3.5%;
+        padding-bottom: 14%;
+        padding-top: 3%;
+    }
+
+    .icon1{
+        float: none;
+        width: 3%;
+        margin-left: 25%;
+        padding-bottom: 2%;
+    }
+
+    .icon2{
+        float: none;
+        width: 2.9%;
+        margin-left: 28.5%;
+        padding-bottom: 3.2%;
+
     }
 }

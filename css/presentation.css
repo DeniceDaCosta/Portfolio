@@ -40,7 +40,7 @@ ul {
 li a {
     display: block;
     color: rgb(50, 50, 50);
-    padding: 30px 10px;
+    padding: 40px 20px;
     padding-right: 20%;
     text-decoration: none;
 }
@@ -207,6 +207,8 @@ span{
 #box5{
     height: 100px;
 }
+
+/*Footer*/
 
 footer {
     width: 123%;
@@ -431,7 +433,7 @@ footer {
     .credit{
         float: right;
         width: 3.5%;
-        padding-bottom: 14%;
+        margin-bottom: 14%;
         padding-top: 3%;
     }
 
