@@ -152,7 +152,7 @@ nav ul li a:hover{
 
 .portfolio-img img {
     transition: all 0.5s;
-    width: 150%;
+    width: 100%;
 }
 
 .portfolio-content-head {
