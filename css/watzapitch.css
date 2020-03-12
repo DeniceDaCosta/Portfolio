@@ -319,7 +319,7 @@ to {
 
 /* Section - Parallax */
 /**************************/
-#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; height: 800px; background-image: url(../img/Watzapitch_logo_noir[2083].jpg); background-attachment: fixed; background-size: cover ; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center;}
+#parallax-world-of-ugg .parallax-one {padding-top: 200px; padding-bottom: 200px; overflow: hidden; position: relative; width: 100%; height: 800px; background-image: url(../img/william-iven-SpVHcbuKi6E-unsplash.jpg); background-attachment: fixed; background-size: cover ; -moz-background-size: cover; -webkit-background-size: cover; background-repeat: no-repeat; background-position: center;}
 
 /* Extras */
 /**************************/
@@ -339,6 +339,165 @@ to {
 
 @media screen and (max-width: 479px) {
   #parallax-world-of-ugg .block {padding: 30px 15px; width:290px;}
+}
+
+.background{
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  opacity: 10%;
+}
+
+/*Elements*/
+/**************************/
+
+.block{
+  height: 50px;
+  width: 100%;
+}
+
+.part1{
+  width: 100%;
+}
+
+.part2{
+  background-color: #fafafa;
+  height: 1300px;
+  width: 101%;
+}
+
+
+.titre1{
+  color: #005c96;
+}
+
+.titre2{
+  color: #005c96;
+  margin-top: 6%;
+}
+
+.t1{
+  margin-right: 7%;
+  margin-top: 10%;
+}
+
+.t2{
+  margin-top: 6%;
+}
+
+.t3{
+  padding: 5%;
+  text-align: center;
+  margin-top: -13%;
+}
+
+.photo1{
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.photo2{
+  width: 70%;
+  margin-left: 23%;
+  margin-top: 10%;
+}
+
+.photo3{
+  background: scroll;
+  width: 100%;
+  height: 350px;
+  margin-top: -10%;
+}
+
+/*Button*/
+/**************************/
+.button{
+  margin-left: 46%;
+  margin-top: -5%;
+}
+
+.bubbly-button {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+  display: inline-block;
+  font-size: 1em;
+  padding: 1em 2em;
+  margin-left: 2%;
+  -webkit-appearance: none;
+  appearance: none;
+  background-color: #005c96;
+  color: #fff;
+  border-radius: 4px;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  transition: transform ease-in 0.1s, box-shadow ease-in 0.25s;
+  box-shadow: (0 2px 25px #498fbb, 0.5);
+}
+
+.bubbly-button:focus {
+  outline: 0;
+}
+.bubbly-button:before, .bubbly-button:after {
+  position: absolute;
+  content: '';
+  display: block;
+  width: 140%;
+  height: 100%;
+  left: -20%;
+  z-index: -1000;
+  transition: all ease-in-out 0.5s;
+  background-repeat: no-repeat;
+}
+.bubbly-button:before {
+  display: none;
+  top: -75%;
+  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 20%, #ff0081 20%, transparent 30%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+  background-size: 10% 10%, 20% 20%, 15% 15%, 20% 20%, 18% 18%, 10% 10%, 15% 15%, 10% 10%, 18% 18%;
+}
+.bubbly-button:after {
+  display: none;
+  bottom: -75%;
+  background-image: radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, transparent 10%, #ff0081 15%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%), radial-gradient(circle, #ff0081 20%, transparent 20%);
+  background-size: 15% 15%, 20% 20%, 18% 18%, 20% 20%, 15% 15%, 10% 10%, 20% 20%;
+}
+.bubbly-button:active {
+  transform: scale(0.9);
+  background-color: #0995e6;
+  box-shadow: 0 2px 25px rgba(255, 0, 130, 0.2);
+}
+.bubbly-button.animate:before {
+  display: block;
+  animation: topBubbles ease-in-out 0.75s forwards;
+}
+.bubbly-button.animate:after {
+  display: block;
+  animation: bottomBubbles ease-in-out 0.75s forwards;
+}
+
+@keyframes topBubbles {
+  0% {
+    background-position: 5% 90%, 10% 90%, 10% 90%, 15% 90%, 25% 90%, 25% 90%, 40% 90%, 55% 90%, 70% 90%;
+  }
+  50% {
+    background-position: 0% 80%, 0% 20%, 10% 40%, 20% 0%, 30% 30%, 22% 50%, 50% 50%, 65% 20%, 90% 30%;
+  }
+  100% {
+    background-position: 0% 70%, 0% 10%, 10% 30%, 20% -10%, 30% 20%, 22% 40%, 50% 40%, 65% 10%, 90% 20%;
+    background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
+}
+@keyframes bottomBubbles {
+  0% {
+    background-position: 10% -10%, 30% 10%, 55% -10%, 70% -10%, 85% -10%, 70% -10%, 70% 0%;
+  }
+  50% {
+    background-position: 0% 80%, 20% 80%, 45% 60%, 60% 100%, 75% 70%, 95% 60%, 105% 0%;
+  }
+  100% {
+    background-position: 0% 90%, 20% 90%, 45% 70%, 60% 110%, 75% 80%, 95% 70%, 110% 10%;
+    background-size: 0% 0%, 0% 0%,  0% 0%,  0% 0%,  0% 0%,  0% 0%;
+  }
 }
 
 /* Footer */
