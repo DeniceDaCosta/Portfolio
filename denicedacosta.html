@@ -17,7 +17,7 @@
 <body>
 <header>
     <!------ Navigation ---------->
-    <nav>
+    <nav id="desktop-menu">
         <div class="logo-helper">
             <a href="denicedacosta.html"><img src="img/logo D blanc.png" class="logo"/></a>
         </div>
@@ -49,6 +49,40 @@
           </div>
 </section>
     </nav>
+    <nav role="navigation" id="mobile-menu">
+        <div id="menuToggle">
+            <input type="checkbox" />
+            <span></span>
+    <span></span>
+    <span></span>
+            <ul id="menu">
+                <a href="#"><li>Home</li></a>
+                <a href="#"><li>About</li></a>
+                <a href="#"><li>Info</li></a>
+                <a href="#"><li>Contact</li></a>
+                <a href="https://erikterwan.com/" target="_blank"><li>Show me more</li></a>
+              </ul>
+            </div>
+
+            <section class="trial-block" id="ContactUs">
+         
+                <div class="process-scetion">
+                  <div class="container">
+                      <div class="row">
+                          <div class="col-md-10">
+                              <div class="social-bar">
+                                  <div class="social-icons mb-3 iconpad text-center">
+                                        <a href="https://www.facebook.com/denice.dacosta" target="_blank" class="slider-nav-item"><i class="fab fa-facebook"></i></a>
+                                        <a href="https://www.linkedin.com/in/d%C3%A9nice-da-costa-0b396b195/" target="_blank" class="slider-nav-item"><i class="fab fa-instagram"></i></a>
+                                        <a href="https://www.instagram.com/ddacostadesign/" target="_blank" class="slider-nav-item"><i class="fab fa-linkedin"></i></a>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+    </section>
+          </nav>
 
         
         <!------ Header Parallax ---------->
@@ -59,8 +93,8 @@
                 </div>
             </section>
         
-            <section>
-                <div class="block">
+            <section class="block">
+                <div>
                 </div>
             </section>
       </div>   
@@ -221,7 +255,6 @@
                                <li><span>Recherche graphique et proposition de 3/6 logos</span></li>
                                 <li><span>Étapes de modifications</span></li>
                                 <li><span>Remise des fichiers sources dans les formats JPG, PNG et vectoriel</span></li>
-                                <li><span>Don de la propriété intellectuelle</span></li>
                             </br>
                             </ul>
                         </div>
@@ -273,7 +306,7 @@
                                 </br>
                             	<li><span>Recherche graphique et proposition de 1 ou 2 pistes visuelles</span></li>
                                 <li><span>Étapes de modifications</span></li>
-                                <li><span>Remise du fichier en formant PDF haute définition</span></li>
+                                <li><span>Remise du fichier en format PDF haute définition</span></li>
                                 </br>
                             </br>
                             </ul>
@@ -319,7 +352,7 @@
                             </br>
                             	<li><span>Recherche graphique et proposition de 1 ou 2 pistes visuelles</span></li>
                                  <li><span>Étapes de modifications</span></li>
-                                 <li><span>Remise du fichier en formant PDF haute définition</span></li>
+                                 <li><span>Remise du fichier en format PDF haute définition</span></li>
                                 </br>
                             </br>
                             </ul>
@@ -364,7 +397,7 @@
                             	<li><span>Format (A4 pliés en 3) recto-verso</span></li>
                                  <li><span>Recherche graphique et proposition de 1 ou 2 pistes visuelles</span></li>
                                  <li><span>Étapes de modifications</span></li>
-                                 <li><span>Remise du fichier en formant PDF haute définition</span></li>
+                                 <li><span>Remise du fichier en format PDF haute définition</span></li>
                                 </br>
                             </ul>
                         </div>
@@ -556,7 +589,7 @@
     <script src="js/jquery-3.3.1.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/nav.js"></script>
-    <script src="js/fadeout"></script>
+    <script src="js/toggle"></script>
     <script src="js/scroll.js"></script>
 </body>
 </html>
